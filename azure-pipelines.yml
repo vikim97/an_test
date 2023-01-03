@@ -9,5 +9,5 @@ steps:
 - task: katalonTask@1
   displayName: 'Execute Katalon Studio project'
   inputs:
-    version: '8.2.5'
-    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey=$(katalon_api_key)'
+    version: '8.5.5'
+    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey="2e52c062-c196-4f7a-80e8-3fb119068457" -webui.autoUpdateDrivers=true'
