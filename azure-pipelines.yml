@@ -10,4 +10,4 @@ steps:
   displayName: 'Execute Katalon Studio project'
   inputs:
     version: '8.5.5'
-    executeArgs: '-retry=0 -testSuitePath=""Test Suites/TS_RegressionTest" -browserType="Firefox (headless)" -executionProfile="default" -apiKey="2e52c062-c196-4f7a-80e8-3fb119068457" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=false -webui.autoUpdateDrivers=true'
+    executeArgs: -browserType="Chrome" -retry=0 -apiKey="60625de7-6e75-4afa-9653-5e399e67c6c4" -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" --config -webui.autoUpdateDrivers=true 
